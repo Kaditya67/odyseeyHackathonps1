@@ -1,0 +1,32 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+myenv/
+
+# Django stuff:
+*.log
+db.sqlite3
+/media
+/static
+
+# If you're using PostgreSQL or MySQL
+*.pgdata
+*.sql
+
+# Ignore IDE/editor files
+.idea/
+.vscode/
+*.swp
+
+# Django migrations
+*/migrations/*
+!*/migrations/__init__.py
+
+# Ignore secrets and environment variables
+.env
+*.env
+secrets.json
