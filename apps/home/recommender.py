@@ -3,6 +3,7 @@ from sklearn.metrics.pairwise import cosine_similarity
 from scipy.sparse import csr_matrix
 import os
 from django.conf import settings
+#testing
 
 class CollaborativeFilteringRecommender:
     def __init__(self, interactions_df):
